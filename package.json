@@ -1,0 +1,23 @@
+{
+  "name": "jsdkg",
+  "version": "1.0.0",
+  "description": "Javascript implementation of paper \"Secure Distributed Key Generation for Discrete-Log Based Cryptosystems\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@chainsafe/bls": "^7.1.1",
+    "@waku/core": "^0.0.16",
+    "@waku/create": "^0.0.12",
+    "@waku/interfaces": "^0.0.11",
+    "@waku/message-encryption": "^0.0.14",
+    "@waku/utils": "0.0.4",
+    "dockerode": "^3.3.5",
+    "greenwebjs": "^1.1.9",
+    "clvm": "^2.0.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
